@@ -1,0 +1,228 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #111;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.social-buttons {
+  position: fixed;
+  top: 448.33px;
+  right: 0;
+  color: #eee;
+  width: 48px;
+}
+
+.social-buttons a:hover,
+.social-buttons a:focus,
+.social-buttons a:active {
+  color: #e2b96f;
+}
+
+.container-fluid {
+  max-width: 1240px;
+}
+
+header .main-title {
+  font-size: 5.75rem;
+  -webkit-transition: all .5s;
+	transition: all .5s;
+  margin-top: 100px;
+  font-weight: 500;
+}
+
+header .sub-title {
+  font-size: 3rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+section .placebar {
+  height: 55px;
+  width: 100%;
+  background-color: #111;
+  display: none;
+}
+
+section .placebar-block {
+  display: block;
+}
+
+section .nav>li {
+  height: 55px;
+  text-align: center;
+}
+
+section .nav>li>a {
+  margin: 7.5px;
+}
+
+section .nav>li:first-child a {
+  padding: 0;
+  margin: 0;
+}
+
+section .nav>li:last-child a {
+  border: 1px solid #111;
+  border-radius: 4px;
+  background-color: #111;
+  color: #e2b96f;
+}
+
+section .nav>li:last-child a:hover {
+  border-color: #eee;;
+  background-color: #e2b96f;
+  color: #fff;
+}
+
+section .nav>li a img {
+  height: 55px;
+}
+
+section .navbar ul li {
+  list-style: none;
+  padding: 0px 5px;
+  font-size: 1.675rem;
+}
+
+section .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+section .navbar, .navbar-nav {
+  margin: 0;
+  border: 0;
+}
+
+section .navbar .navbar-collapse {
+  text-align: center;
+  background-color: #eee;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 8px;
+  border-color: #eee;
+  transition: border 0.5s;
+}
+
+.nav>li>a:hover {
+  /*border-top: 2px solid #111;*/
+  border-bottom: 2px solid #111;
+  transition: border 0.25s;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+  border-color: #eee;
+  border-width: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #333;
+}
+
+.navbar-collapse {
+  padding: 0;
+}
+
+.navbar-fixed {
+  top: 0;
+  left: 0; /* Not sure why I need to specify this but without it the navbar re-positions itself by 15px. */
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .nav-home {
+  display: none;
+}
+
+.navbar .nav-logo {
+  display: block;
+}
+
+/*.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  opacity:1;
+}
+
+.dropdown-menu {
+  opacity:.3;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: scale(1, 0);
+  display: block;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}*/
+
+@media (max-width: 768px) {
+  .navbar .nav-home {
+    display: block;
+  }
+  .navbar .nav-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar,
+  .navbar-default {
+    display: block;
+  }
+}
+
+section .content {
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.hero-content {
+  margin-bottom: 15px;
+}
+
+.hero-content h2 {
+  margin-top: 30px;
+}
+
+.hero-content p {
+  margin-top: 15px;
+}
+
+.hero-slider {
+  height: 55px;
+  margin-top: 15px;
+}
+
+.left {
+  border-right: 1px dotted #eee;
+}
+
+.right {
+  border-left : 1px dotted #eee;
+}
