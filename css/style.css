@@ -222,9 +222,9 @@ section .content {
   transition: all 0.3s;
 }
 .hero-content:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .hero-slider {
