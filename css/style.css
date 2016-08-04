@@ -226,3 +226,7 @@ section .content {
 .right {
   border-left : 1px dotted #eee;
 }
+
+.fb-page {
+  margin-bottom: 30px;
+}
