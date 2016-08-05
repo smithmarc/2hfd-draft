@@ -232,7 +232,6 @@ section .content {
   height: 396.99px;
 }
 
-
 .hero-slider {
   height: 55px;
   margin-top: 15px;
@@ -260,10 +259,6 @@ section .content {
   border-radius: 5px;
   padding: 5px 15px;
   text-align: center;
-}
-
-.fb-page {
-  margin-bottom: 15px;
 }
 
 .fb-page {
