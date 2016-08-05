@@ -20,6 +20,10 @@ a {
   padding: 0;
 }
 
+a:focus, a:hover {
+  color: #e2b96f;
+}
+
 .social-buttons {
   position: fixed;
   top: 448.33px;
@@ -168,7 +172,6 @@ section .navbar .navbar-collapse {
   transform: scale(1, 1);
   opacity:1;
 }
-
 .dropdown-menu {
   opacity:.3;
   -webkit-transform-origin: top;
@@ -214,6 +217,21 @@ section .content {
   margin-top: 15px;
 }
 
+.hero-thumb {
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.hero-thumb:hover img {
+  transform: scale(1.01);
+  transition: ease-in-out 0.2s;
+}
+
+.headline {
+  height: 396.99px;
+}
+
 .hero-slider {
   height: 55px;
   margin-top: 15px;
@@ -221,8 +239,28 @@ section .content {
 
 .left {
   border-right: 1px dotted #eee;
+  height: 55px;
+}
+
+.center {
+  height: 55px;
 }
 
 .right {
   border-left : 1px dotted #eee;
+  height: 55px;
+}
+
+.main {
+  color: #eee;
+  position: relative;
+  margin: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.fb-page {
+  margin-bottom: 15px;
 }
