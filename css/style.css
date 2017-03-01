@@ -363,9 +363,13 @@ section .content {
   background: #112;
 }
 
+.warehouse {
+  margin: 1em 40px;
+}
+
 .warehouse-title {
   margin: 1em 40px;
-  font-size: 2.5em;
+  font-size: 2.25em;
   color: #eee;
   text-align: center;
 }
