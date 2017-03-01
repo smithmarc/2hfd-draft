@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: #111;
+  background: #000;
   -webkit-font-smoothing: antialiased;
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
@@ -230,7 +230,7 @@ section .content {
 }
 
 .hero-content .hero-thumb {
-  background: #111;
+  /*background: #111;*/
 }
 
 /*figure {
@@ -366,12 +366,12 @@ section .content {
 #stripes {
   color: #eee;
 
-  background: linear-gradient(-90deg, rgb(17, 17, 17) 10%, rgb(134, 111, 69), rgb(226, 185, 111));
-  background: -webkit-linear-gradient(-90deg, rgb(17, 17, 17) 10%, rgb(134, 111, 69), rgb(226, 185, 111));
+  background: linear-gradient(-90deg, rgb(0, 0, 0) 30%, rgb(134, 111, 69), rgb(226, 185, 111));
+  background: -webkit-linear-gradient(-90deg, rgb(0, 0, 0) 30%, rgb(134, 111, 69), rgb(226, 185, 111));
 }
 
 footer {
-  height: 400px;
+  height: 300px;
   padding: 10rem 0;
 }
 
