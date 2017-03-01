@@ -360,7 +360,7 @@ section .content {
 
 .video-title span:hover {
   border-color: #e2b96f;
-  background: #112;
+  background: #000;
 }
 
 .warehouse {
