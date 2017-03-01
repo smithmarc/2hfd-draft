@@ -20,6 +20,11 @@ a {
   padding: 0;
 }
 
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
 a:focus, a:hover {
   color: #e2b96f;
 }
@@ -206,35 +211,105 @@ section .content {
 }
 
 .hero-content {
-  margin-bottom: 15px;
-}
-
-.hero-content h2 {
-  margin-top: 30px;
-}
-
-.hero-content p {
-  margin-top: 15px;
+  display: block;
+  position: relative;
+  padding: 1rem 0;
 }
 
 .hero-thumb {
+  display: block;
+  position: relative;
+  padding-bottom: 169px;
+}
+
+.hero-thumb img {
   width: 100%;
+  display: block;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.hero-content .hero-thumb {
+  background: #111;
+}
+
+/*figure {
+  margin: 0;
+}*/
+
+.hero-thumb .image {
+  position: relative;
+  float: left;
+  width: 60%;
+  overflow: hidden;
+}
+
+.hero-thumb span {
+  display: block;
+}
+
+.hero-thumb figcaption {
+  margin-left: 60%;
+  padding: 2rem;
+}
+
+.hero-title {
+  padding: 1.5rem 0;
+  font-size: 32px;
+}
+
+.hero-thumb:focus img,
+.hero-thumb:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.social-content {
+  padding: 2rem 0;
+}
+
+.hero-content .col-sm-3 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.hero-content .col-sm-3:not(:last-child) {
+    border-right: 1px dotted hsla(0,0%,100%,.4);
+    height: 6rem;
+}
+
+/*.hero-thumb {
+  display: inline-block;
   overflow: hidden;
   transition: all 0.5s;
+}
+
+.hero-thumb img {
+  vertical-align: middle;
 }
 
 .hero-thumb:hover img {
   transform: scale(1.01);
   transition: ease-in-out 0.2s;
+  overflow: hidden;
+}*/
+
+.hero-thumb-img {
+  width: 60%;
+  float: left;
 }
 
 .headline {
   height: 396.99px;
+  float: right;
 }
 
 .hero-slider {
-  height: 55px;
-  margin-top: 15px;
+  margin: 1em 40px;
+  font-size: 13px;
 }
 
 .left {
@@ -263,4 +338,48 @@ section .content {
 
 .fb-page {
   margin-bottom: 15px;
+}
+
+.video-tab {
+  margin: 1em 40px;
+}
+
+.video-title {
+  margin: 1em 15px;
+  color: #eee;
+  font-size: 1.5em;
+}
+
+.video-title span {
+  float: right;
+  font-size: 0.85em;
+  border: 1px solid #eee;
+  padding: 2.5px 7.5px;
+  border-radius: 5px;
+}
+
+.video-title span:hover {
+  border-color: #e2b96f;
+  background: #112;
+}
+
+#stripes {
+  color: #eee;
+
+  background: linear-gradient(-90deg, rgb(17, 17, 17) 10%, rgb(134, 111, 69), rgb(226, 185, 111));
+  background: -webkit-linear-gradient(-90deg, rgb(17, 17, 17) 10%, rgb(134, 111, 69), rgb(226, 185, 111));
+}
+
+footer {
+  height: 400px;
+  padding: 10rem 0;
+}
+
+footer h4 {
+  padding-bottom: 1em;
+  font-size: 16px;
+}
+
+footer li {
+  padding-bottom: 0.5em;
 }
